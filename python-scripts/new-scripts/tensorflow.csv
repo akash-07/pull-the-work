@@ -1,5 +1,5 @@
 "title","commits","additions","deletions","changed_files","author_association"
-"[tflite] make calling NNAPI work again",1,0,1,1,"CONTRIBUTOR"
+"[tflite] make calling NNAPI work again",1,0,1,1,"CONTRIBUTOR",""
 "Introducing TensorRT operator",1,4589,16,35,"NONE"
 "fix typo",1,2,2,2,"CONTRIBUTOR"
 "Fix a buildscript error which prevents macro being used by other workspaces",1,5,5,1,"NONE"
