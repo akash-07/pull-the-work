@@ -13,7 +13,7 @@ X_train,X_test,y_train,y_test = train_test_split(X,y, random_state=1)
 vect = CountVectorizer(ngram_range=(1,3))
 =======
 #os.chdir("E:\\6th sem pse lab\pull-the-work\python-scripts\\new-scripts")
-tag = pd.read_csv("tensorflow.csv")
+tag = pd.read_csv("test.csv")
 #gets you column named 'title', same as tag['title']
 X = tag.title
 y = tag.priority
@@ -22,7 +22,6 @@ X_train, X_test, y_train, y_test = train_test_split(X,y, random_state=1)
 # Machine learning model, parameters?
 vect = CountVectorizer(ngram_range(1,3))
 # Fitting train data
->>>>>>> e25e2e6b5df58a825e1d9d80fd00acfa65c7b8b5
 vect.fit(X_train)
 X_train_dtm = vect.transform(X_train)
 X_test_dtm = vect.transform(X_test)
