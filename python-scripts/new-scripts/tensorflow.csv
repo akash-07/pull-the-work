@@ -1,203 +1,406 @@
-"title","commits","additions","deletions","changed_files","author_association"
-"[tflite] make calling NNAPI work again",1,0,1,1,"CONTRIBUTOR",""
-"Introducing TensorRT operator",1,4589,16,35,"NONE"
-"fix typo",1,2,2,2,"CONTRIBUTOR"
-"Fix a buildscript error which prevents macro being used by other workspaces",1,5,5,1,"NONE"
-"support preconditioner for `conjugated_gradient()` in `linear_equations.py`",3,84,10,4,"NONE"
-"Singleton S3Client",2,75,76,3,"NONE"
-"Fix result shape of tf.tensordot unknown when axes is an integer number",1,2,1,1,"CONTRIBUTOR"
-"added CMake options to provide external zlib, GRPC, Eigen",1,533,339,15,"CONTRIBUTOR"
-"make label_image for tflite build again",2,47,30,3,"CONTRIBUTOR"
-"Accepts `PathLike` objects for `model_dir`",3,28,5,4,"NONE"
-"add LU operation and return factorized matrices, related to #6992",15,276,1,9,"NONE"
-"4d55397500 patch 1",3,4,1,1,"CONTRIBUTOR"
-"remove "":arm"" to build tflite on ARM64 linux",1,0,5,1,"CONTRIBUTOR"
-"Add C++ toolchain for portable Linux builds",1,883,0,6,"MEMBER"
-"Fix unicode string conversion issue in Python 2",3,37,4,2,"MEMBER"
-"GAN model: move generated and real operations under discriminator namespace",1,9,7,1,"NONE"
-"Added save_checkpoint_steps attribute to MonitoredTrainingSession",1,41,6,2,"NONE"
-"New features: tf.alphas and tf.alphas_like - Related to #16128",2,92,0,2,"CONTRIBUTOR"
-"Decoding contents of BMP file on big endian",1,15,0,1,"CONTRIBUTOR"
-"fix typo",1,1,1,1,"NONE"
-"Added training parameter to batch_normalization",1,4,4,1,"NONE"
-"Add training parameter to dropout to make it work",1,1,1,1,"NONE"
-"Update contrib/HVX readme",1,84,61,3,"CONTRIBUTOR"
-"allow 'None' as batch size for TimeFreqLSTMCell",2,1,1,1,"NONE"
-"fix default parameters for TimeFreqLSTMCell, fixes #16100",1,1,1,1,"NONE"
-"add `slide` method for Dataset",3,620,0,9,"CONTRIBUTOR"
-"Enable some passes for graph_transform on Windows",2,5,9,2,"NONE"
-"Utility classes for writing Java source code from a C++ process (part 3)",2,952,0,7,"CONTRIBUTOR"
-"Created ctc_loss_dense_labels in contrib.layers",5,48,3,2,"NONE"
-"Minor improvements to TFRecord format docs",1,5,5,1,"CONTRIBUTOR"
-"Add nsync lib dep. to cc_library rule android_tensorflow_lib_selective_registration",1,1,0,1,"CONTRIBUTOR"
-"Update maxout.py",1,4,0,1,"NONE"
-"Propagate the error string of GIF processing for decode_gif",2,30,28,3,"MEMBER"
-"Fix crash in `tf.contrib.ffmpeg.decode_video`",1,3,1,1,"MEMBER"
-"Add stream selection support for `tf.contrib.ffmpeg.decode_audio`",3,51,18,6,"MEMBER"
-"Disable keras data_utils_test as it's flaky.",2,1,0,1,"MEMBER"
-"Add unspecified dimensions (-1) support for noise_shape with tf.nn.dropout",2,58,1,2,"MEMBER"
-"Update download_dependencies.sh to prevent crash from 403",3,8,1,1,"CONTRIBUTOR"
-"optimize_for_inference_lib.fold_batch_norms() preserves data_format",1,45,39,2,"NONE"
-"[XLA] Separate out the dynamic slice wrapping tests",3,28,0,1,"CONTRIBUTOR"
-"export tflite::Intepreter's  UseNNAPI() and setNumThreads() to java",1,114,4,8,"CONTRIBUTOR"
-"MKL DNN: fixed a bug related to feature column test in python",1,24,0,1,"CONTRIBUTOR"
-"Make platform a proper module",2,2,1,2,"NONE"
-"Fix crash on GPU (out of GPU memory) for `softmax_cross_entropy_with_logits`",2,16,4,2,"MEMBER"
-"Fix a bug in ResolveConstantConcat",1,10,4,3,"NONE"
-"Add property to get cell wrapped by DropoutWrapper ",1,10,0,2,"NONE"
-"Verbs w 0 copies",22,1574,881,15,"NONE"
-"Adding meta_graph_be.pb testdata for big endian for framework_meta_graph_test",1,1568,3,3,"CONTRIBUTOR"
-"Fix freeze_graph command line argument error.",1,23,13,1,"NONE"
-"Add broadcasting support for `tf.where`",8,180,39,6,"MEMBER"
-"Fix local path for hexagon_graph_execution in sample script",2,4,4,1,"NONE"
-"Fix variable property of DropoutWrapper",2,7,0,2,"CONTRIBUTOR"
-"Make graph transform tool accessible via command line for pip install.",2,48,1,5,"MEMBER"
-"remove write_version=saver_pb2.SaverDef.V1",1,1,1,1,"CONTRIBUTOR"
-"Support for large number of classes when using tf.metrics.mean_per_class_accuracy()",1,28,17,1,"NONE"
-"[tensorflow lite] add setUseNNAPI to the Interpreter class",1,4,0,1,"NONE"
-"Update docs and test cases for missing types in `tf.zeros_like`",2,11,9,2,"MEMBER"
-"Making SQLite better",9,5,5,5,"CONTRIBUTOR"
-"_Assert3DImage that adds a control dependency for the shape check",1,31,19,1,"CONTRIBUTOR"
-"Add additional argument to freeze_graph",1,18,7,2,"CONTRIBUTOR"
-"Add EvalResultsExporter for writing the results of evaluation to a file",1,48,0,1,"CONTRIBUTOR"
-"Allow `~/` in path for transform_graph",2,62,8,1,"MEMBER"
-"Transpose for high dimensional tensors using eigen",2,33,0,2,"NONE"
-"Scope subprocess and tempfile imports in tensorflow lite to fix #15410",1,3,2,1,"CONTRIBUTOR"
-"Documentation fix to contrib.signals",3,3,3,1,"NONE"
-"Fix LSTM Layer Normalization implementation to match original paper",3,196,86,3,"NONE"
-"Add unsortedsegment(prod/min/max/sqrt_n/mean).",1,730,286,8,"CONTRIBUTOR"
-"Export inception model after retrain",2,51,0,1,"NONE"
-"Move SpeechActivity animation to XML.",1,37,12,2,"CONTRIBUTOR"
-"Fix a pessimizing-move warning in GetDeviceLapackInfo()",1,1,1,1,"CONTRIBUTOR"
-"Updating error handling in normalize_tuple",1,1,1,1,"NONE"
-"add checking for input values in GANHead constructor",5,17,1,1,"NONE"
-"Remove calculation of unnecessary matrix columns in SVD gradient",1,4,5,1,"CONTRIBUTOR"
-"order quantized table by value for ease of reading",1,1,1,1,"CONTRIBUTOR"
-"Add `colors` support for `tf.image.draw_bounding_boxes`",4,99,31,3,"MEMBER"
-"fix todo: make a class which constrcuts resource and provide get_next.",3,28,28,2,"NONE"
-"Make unused variable warning an error during TF builds.",1,1,0,1,"OWNER"
-"Including common.h with NEON_2_SSE.h",10,12,2,4,"NONE"
-"Use Eigen version of the `scalar_pow_op` for `pow` ops",2,1,19,1,"MEMBER"
-"Clarify the description of batch_norm in order to highlight the dimen…",2,6,2,1,"NONE"
-"Batch support for deterministic image ops",4,248,51,2,"CONTRIBUTOR"
-"Load region from `~/.aws/config` if possible in S3",3,30,4,1,"MEMBER"
-"De-Bazel pip_smoke_test sanity check",1,14,23,3,"CONTRIBUTOR"
-"De-Bazel check_load_py_test sanity check",1,10,18,3,"CONTRIBUTOR"
-"Turn check_futures_test into a sanity check",2,13,12,3,"CONTRIBUTOR"
-"[CMake] Add sanity tests for python file lists",2,131,5,4,"CONTRIBUTOR"
-" Fix NadamOptimizer to work with sparse gradients properly",9,2,1,1,"CONTRIBUTOR"
-"adding ps_strategy to run_config to enable different placement strate…",1,42,8,3,"NONE"
-"fix doc for benchmark_model for android",1,3,1,2,"CONTRIBUTOR"
-"Fix periodic resample",4,65,14,4,"NONE"
-"Support Negativo17 Fedora Packaging",1,89,3,2,"NONE"
-"update _DECORATED_OPS for each latest call",1,1,2,1,"NONE"
-"Fix `tf.pow(x, y)` edge case with integer x and negative integer y",4,92,7,6,"MEMBER"
-"Fix issue #15588 by simplifying the code",1,0,5,1,"NONE"
-"Issue #15572, support for unspecified spatial dimensions in layers.Conv3d_transposed",3,20,16,2,"NONE"
-" [CMake] Extract more file lists",1,223,168,5,"CONTRIBUTOR"
-"WIP: Remove invalid merge_repeated option from CTC beam decoder",1,11,27,4,"NONE"
-"RGB<->YIQ colorspace conversion",5,165,0,3,"NONE"
-"[iOS/tflite] Add ability to build a specific arch",1,101,14,1,"CONTRIBUTOR"
-"Fix sample_distorted_bounding_box where min_object_covered could be None",2,21,0,2,"MEMBER"
-"fix pooling1D dimension bug",1,4,4,1,"NONE"
-"Enables 0-D indexing for Gather() in TFLite",2,29,5,2,"NONE"
-"Hotfix/fix android example for focus mode continuous picture - #15487",2,8,2,1,"NONE"
-"Compute test accuracy in batches to avoid OOM on GPUs",2,9,2,1,"NONE"
-"Small fix in the example",1,1,1,1,"NONE"
-"Add customerized kernel implementation for clip_by_value",9,623,38,10,"MEMBER"
-"Make get_placeholders() accessible and add example",3,13,0,2,"CONTRIBUTOR"
-"Add complex64 and complex128 support for `tf.angle` on GPU",5,28,13,4,"MEMBER"
-"New rolling window batch operation for tf.data.Dataset #15044",6,115,0,3,"NONE"
-"DOCS: Update the description of the fused parameter.",1,6,6,2,"CONTRIBUTOR"
-"Add complex64 and complex128 support for ApplyAdadelta kernel",2,4,1,2,"MEMBER"
-"Fix bug: leaky relu supports float64",8,12,7,2,"CONTRIBUTOR"
-"Silence warning of graph_replace",3,7,2,2,"CONTRIBUTOR"
-"CMake: optionally link to ZLIB as systemlib / shared objects.",1,74,40,2,"CONTRIBUTOR"
-"CMake: fix -fPIC control.",1,10,46,9,"CONTRIBUTOR"
-"Only emit PTX code for the most recent CUDA compute architecture",1,7,3,1,"CONTRIBUTOR"
-"fix that remove_nodes drops input suffixes",1,11,1,1,"NONE"
-"CPU: Support for DT_STRING type in ScatterNd ",5,21,5,4,"CONTRIBUTOR"
-"added crucial documentation on SELU activation",1,11,0,3,"NONE"
-"Correct channels_first format in 1d_pooling for tf.layers",1,2,2,1,"NONE"
-"Setting proper sonames on Linux",3,1,0,1,"NONE"
-"Model Average Optimizer",4,522,1,4,"CONTRIBUTOR"
-"Minor optimization of conv_ops.",1,21,23,1,"CONTRIBUTOR"
-"[XLA] Allow components in the plugins directory to create devices",1,1,0,1,"CONTRIBUTOR"
-"Fix issue #15269",1,2,2,1,"NONE"
-"Add support for explicit broadcasting in TensorFlow",9,403,0,5,"MEMBER"
-"Fix static shape inference for keras.layers.LSTM",3,29,0,3,"CONTRIBUTOR"
-"Remove extra param of concatenation in nnapi/NeuralNetworksShim.h",1,1,3,1,"NONE"
-"Add some sparse operators",2,747,0,11,"NONE"
-"estimator: allow export_outputs to be a Tensor",1,11,2,1,"CONTRIBUTOR"
-"fix a problem in tflite custom_operators.md",1,1,1,1,"CONTRIBUTOR"
-"Adding reading op for hadoop sequence file format (very basic version though).",2,619,0,10,"NONE"
-"minor docs addition to fixed_size_partitioner",1,5,0,1,"NONE"
-"Add uint32 and uint64 kernel support for `Invert`",5,11,8,4,"MEMBER"
-"Synchronize threads for safe output",1,2,0,1,"NONE"
-"OS X ld does not have icf",1,1,0,1,"CONTRIBUTOR"
-"Add a setter method variable_scope.auto_reuse_variables() to enable AUTO_REUSE",1,4,0,1,"CONTRIBUTOR"
-"improve tf.saved_model.loader.load exception",1,3,0,1,"CONTRIBUTOR"
-"min_quantize lib and command line",4,1299,0,15,"NONE"
-"Support ""causal"" padding in tf.layers.convolutional.Conv1D",17,173,7,5,"CONTRIBUTOR"
-"Update freeze_graph.py",1,7,7,1,"NONE"
-"Add broadcasting for rank 6 Tensors",1,7,0,1,"NONE"
-"improvement in the tf.nn.raw_rnn documentation",1,8,4,1,"NONE"
-"Switch over to max_pool_v2 in Python",4,66,40,4,"MEMBER"
-"Support passing layer instances to produce attentional hidden states",3,100,8,2,"CONTRIBUTOR"
-"Tensor roll op implementation",31,1493,1,23,"NONE"
-"Add complex dtypes support for `tf.squared_difference`",2,5,3,2,"MEMBER"
-"Variable size multi-label candidate sampling.",1,42,32,4,"CONTRIBUTOR"
-"Fix issue in tf.nn.softmax where negative dims could only be -1",2,13,0,2,"MEMBER"
-"TensorBoard Modifications for Word2Vec Example",3,85,19,1,"NONE"
-"Add `tf.unravel_index` as an equivalent of `np.unravel_index`",7,170,0,5,"MEMBER"
-"Add DT_HALF support for SpaceToDepth on GPU",6,36,4,6,"MEMBER"
-"Fix bug: divide by zero in embedding_lookup_sparse",9,81,32,4,"CONTRIBUTOR"
-"Automate download and unzip of the model file",1,38,5,3,"CONTRIBUTOR"
-"Add label_wav_dir.py",2,136,0,1,"CONTRIBUTOR"
-"Fix crash on closing the app when classifier failed to initialize",1,3,1,1,"CONTRIBUTOR"
-"Update .gitignore files for Android Studio",1,53,4,2,"CONTRIBUTOR"
-"Fix of issue #10479",1,2,3,1,"NONE"
-"New Feature: #12686 Softmaxcrossentropywithlogits gradient function",6,53,0,2,"NONE"
-"Add a way to provide target nodes in Android",2,12,0,1,"NONE"
-"Added a check for a macro to specify that an ARM device is not mobile",1,4,3,1,"NONE"
-"Implement LoggingAsync for GRPC Worker Services",9,115,2,6,"CONTRIBUTOR"
-"upgrade minSdkVersion to 21",1,1,1,1,"NONE"
-"add photo selection and some changes in ios simple app",14,465,321,13,"NONE"
-"Implements LayerNormBasicGRUCell",3,171,0,2,"NONE"
-"Converting the real and imaginary float values from short_test_segmen…",2,14,0,1,"CONTRIBUTOR"
-"Improve SkipNBytes to RandomInputStream ",5,104,44,10,"MEMBER"
-"Make sparse_to_dense differentiable by wrapping scatter_nd_add.",1,9,12,2,"NONE"
-"memmap changes",2,115,3,1,"NONE"
-"Add checkpoint file prefix check",1,8,3,1,"CONTRIBUTOR"
-"add not equal op to tf_op_files.txt",1,2,0,1,"CONTRIBUTOR"
-"updated keras backend with missing methods",1,9,0,1,"NONE"
-"Add int64 support of `axis` (`Tidx`) for ConcatV2",3,72,45,2,"MEMBER"
-"Added an option to `kernel` to `skip_metropolis_step`.",2,85,1,2,"NONE"
-"improve production condition of debug log with VLOG",1,15,6,2,"NONE"
-"Add KafkaReader for processing streaming data with Apache Kafka",18,928,1,13,"MEMBER"
-"Support fold batch norm for atrous conv2d",1,162,0,2,"NONE"
-"Update adding_an_op.md",1,349,0,1,"NONE"
-"make ""smart_cond"" api public and reusable",14,124,49,5,"NONE"
-"allow to run configure from a parent workspace",1,71,16,4,"CONTRIBUTOR"
-"Fix the gradient computation of dynamic stitch.",9,868,10,11,"CONTRIBUTOR"
-"Fix of issue #13164",30,137544,57501,1838,"CONTRIBUTOR"
-"Extracting out tf.bin_values_fixed_width from tf.histogram_fixed_width.",10,122,0,3,"NONE"
-"added scope filtering to summaries.merge_all",4,4,3,2,"NONE"
-"Support TensorArray in BeamSearchDecoder state.",14,244,15,4,"CONTRIBUTOR"
-"Implement SpatialPyramidPooling",25,217,0,2,"CONTRIBUTOR"
-"persist nsync.a across different platform builds",4,8,1,1,"CONTRIBUTOR"
-"Add utf8 support for string_split",15,465,13,8,"MEMBER"
-"change cnn_mnist example to use Adam optimizer; added a 'loss' summary",1,2,1,1,"CONTRIBUTOR"
-"Support CopyFile with streaming",10,133,12,7,"MEMBER"
-"Adding image captioning examples for iOS (Im2txt) ",2,2675,12,30,"NONE"
-"layers.py spatial_softmax activation can be selected by user",4,35,3,2,"NONE"
-"Make scatter_* kernels to be multiple thread and gain 8x speedup.",7,64,57,2,"CONTRIBUTOR"
-"[XLA][WIP] Add support for Polyhedral compilation through Polly",4,667,3,8,"NONE"
-"training argument for tf.nn.rnn_cell.DropoutWrapper",4,44,11,2,"CONTRIBUTOR"
-"Add focal_loss",5,168,0,3,"CONTRIBUTOR"
-"[OpenCL] Registers AvgPool and AvgPoolGrad (#105)",1,374,0,1,"CONTRIBUTOR"
-"Weight normalization for RNN Cells.",3,350,0,2,"NONE"
-"add nodouble option for all cwise ops",2,141,49,40,"CONTRIBUTOR"
-"BeamSearchDecoder: fix beam not full, and add test module",11,101,16,2,"NONE"
-"Multiplicative Integration Recurrent Neural Networks",6,414,0,3,"NONE"
-"Quantize conv2d transpose",23,686,15,7,"CONTRIBUTOR"
+"title","commits","additions","deletions","changed_files","author_association"
+
+"[tflite] make calling NNAPI work again",1,0,1,1,"CONTRIBUTOR"
+
+"Introducing TensorRT operator",1,4589,16,35,"NONE"
+
+"fix typo",1,2,2,2,"CONTRIBUTOR"
+
+"Fix a buildscript error which prevents macro being used by other workspaces",1,5,5,1,"NONE"
+
+"support preconditioner for `conjugated_gradient()` in `linear_equations.py`",3,84,10,4,"NONE"
+
+"Singleton S3Client",2,75,76,3,"NONE"
+
+"Fix result shape of tf.tensordot unknown when axes is an integer number",1,2,1,1,"CONTRIBUTOR"
+
+"added CMake options to provide external zlib, GRPC, Eigen",1,533,339,15,"CONTRIBUTOR"
+
+"make label_image for tflite build again",2,47,30,3,"CONTRIBUTOR"
+
+"Accepts `PathLike` objects for `model_dir`",3,28,5,4,"NONE"
+
+"add LU operation and return factorized matrices, related to #6992",15,276,1,9,"NONE"
+
+"4d55397500 patch 1",3,4,1,1,"CONTRIBUTOR"
+
+"remove "":arm"" to build tflite on ARM64 linux",1,0,5,1,"CONTRIBUTOR"
+
+"Add C++ toolchain for portable Linux builds",1,883,0,6,"MEMBER"
+
+"Fix unicode string conversion issue in Python 2",3,37,4,2,"MEMBER"
+
+"GAN model: move generated and real operations under discriminator namespace",1,9,7,1,"NONE"
+
+"Added save_checkpoint_steps attribute to MonitoredTrainingSession",1,41,6,2,"NONE"
+
+"New features: tf.alphas and tf.alphas_like - Related to #16128",2,92,0,2,"CONTRIBUTOR"
+
+"Decoding contents of BMP file on big endian",1,15,0,1,"CONTRIBUTOR"
+
+"fix typo",1,1,1,1,"NONE"
+
+"Added training parameter to batch_normalization",1,4,4,1,"NONE"
+
+"Add training parameter to dropout to make it work",1,1,1,1,"NONE"
+
+"Update contrib/HVX readme",1,84,61,3,"CONTRIBUTOR"
+
+"allow 'None' as batch size for TimeFreqLSTMCell",2,1,1,1,"NONE"
+
+"fix default parameters for TimeFreqLSTMCell, fixes #16100",1,1,1,1,"NONE"
+
+"add `slide` method for Dataset",3,620,0,9,"CONTRIBUTOR"
+
+"Enable some passes for graph_transform on Windows",2,5,9,2,"NONE"
+
+"Utility classes for writing Java source code from a C++ process (part 3)",2,952,0,7,"CONTRIBUTOR"
+
+"Created ctc_loss_dense_labels in contrib.layers",5,48,3,2,"NONE"
+
+"Minor improvements to TFRecord format docs",1,5,5,1,"CONTRIBUTOR"
+
+"Add nsync lib dep. to cc_library rule android_tensorflow_lib_selective_registration",1,1,0,1,"CONTRIBUTOR"
+
+"Update maxout.py",1,4,0,1,"NONE"
+
+"Propagate the error string of GIF processing for decode_gif",2,30,28,3,"MEMBER"
+
+"Fix crash in `tf.contrib.ffmpeg.decode_video`",1,3,1,1,"MEMBER"
+
+"Add stream selection support for `tf.contrib.ffmpeg.decode_audio`",3,51,18,6,"MEMBER"
+
+"Disable keras data_utils_test as it's flaky.",2,1,0,1,"MEMBER"
+
+"Add unspecified dimensions (-1) support for noise_shape with tf.nn.dropout",2,58,1,2,"MEMBER"
+
+"Update download_dependencies.sh to prevent crash from 403",3,8,1,1,"CONTRIBUTOR"
+
+"optimize_for_inference_lib.fold_batch_norms() preserves data_format",1,45,39,2,"NONE"
+
+"[XLA] Separate out the dynamic slice wrapping tests",3,28,0,1,"CONTRIBUTOR"
+
+"export tflite::Intepreter's  UseNNAPI() and setNumThreads() to java",1,114,4,8,"CONTRIBUTOR"
+
+"MKL DNN: fixed a bug related to feature column test in python",1,24,0,1,"CONTRIBUTOR"
+
+"Make platform a proper module",2,2,1,2,"NONE"
+
+"Fix crash on GPU (out of GPU memory) for `softmax_cross_entropy_with_logits`",2,16,4,2,"MEMBER"
+
+"Fix a bug in ResolveConstantConcat",1,10,4,3,"NONE"
+
+"Add property to get cell wrapped by DropoutWrapper ",1,10,0,2,"NONE"
+
+"Verbs w 0 copies",22,1574,881,15,"NONE"
+
+"Adding meta_graph_be.pb testdata for big endian for framework_meta_graph_test",1,1568,3,3,"CONTRIBUTOR"
+
+"Fix freeze_graph command line argument error.",1,23,13,1,"NONE"
+
+"Add broadcasting support for `tf.where`",8,180,39,6,"MEMBER"
+
+"Fix local path for hexagon_graph_execution in sample script",2,4,4,1,"NONE"
+
+"Fix variable property of DropoutWrapper",2,7,0,2,"CONTRIBUTOR"
+
+"Make graph transform tool accessible via command line for pip install.",2,48,1,5,"MEMBER"
+
+"remove write_version=saver_pb2.SaverDef.V1",1,1,1,1,"CONTRIBUTOR"
+
+"Support for large number of classes when using tf.metrics.mean_per_class_accuracy()",1,28,17,1,"NONE"
+
+"[tensorflow lite] add setUseNNAPI to the Interpreter class",1,4,0,1,"NONE"
+
+"Update docs and test cases for missing types in `tf.zeros_like`",2,11,9,2,"MEMBER"
+
+"Making SQLite better",9,5,5,5,"CONTRIBUTOR"
+
+"_Assert3DImage that adds a control dependency for the shape check",1,31,19,1,"CONTRIBUTOR"
+
+"Add additional argument to freeze_graph",1,18,7,2,"CONTRIBUTOR"
+
+"Add EvalResultsExporter for writing the results of evaluation to a file",1,48,0,1,"CONTRIBUTOR"
+
+"Allow `~/` in path for transform_graph",2,62,8,1,"MEMBER"
+
+"Transpose for high dimensional tensors using eigen",2,33,0,2,"NONE"
+
+"Scope subprocess and tempfile imports in tensorflow lite to fix #15410",1,3,2,1,"CONTRIBUTOR"
+
+"Documentation fix to contrib.signals",3,3,3,1,"NONE"
+
+"Fix LSTM Layer Normalization implementation to match original paper",3,196,86,3,"NONE"
+
+"Add unsortedsegment(prod/min/max/sqrt_n/mean).",1,730,286,8,"CONTRIBUTOR"
+
+"Export inception model after retrain",2,51,0,1,"NONE"
+
+"Move SpeechActivity animation to XML.",1,37,12,2,"CONTRIBUTOR"
+
+"Fix a pessimizing-move warning in GetDeviceLapackInfo()",1,1,1,1,"CONTRIBUTOR"
+
+"Updating error handling in normalize_tuple",1,1,1,1,"NONE"
+
+"add checking for input values in GANHead constructor",5,17,1,1,"NONE"
+
+"Remove calculation of unnecessary matrix columns in SVD gradient",1,4,5,1,"CONTRIBUTOR"
+
+"order quantized table by value for ease of reading",1,1,1,1,"CONTRIBUTOR"
+
+"Add `colors` support for `tf.image.draw_bounding_boxes`",4,99,31,3,"MEMBER"
+
+"fix todo: make a class which constrcuts resource and provide get_next.",3,28,28,2,"NONE"
+
+"Make unused variable warning an error during TF builds.",1,1,0,1,"OWNER"
+
+"Including common.h with NEON_2_SSE.h",10,12,2,4,"NONE"
+
+"Use Eigen version of the `scalar_pow_op` for `pow` ops",2,1,19,1,"MEMBER"
+
+"Clarify the description of batch_norm in order to highlight the dimenâ€¦",2,6,2,1,"NONE"
+
+"Batch support for deterministic image ops",4,248,51,2,"CONTRIBUTOR"
+
+"Load region from `~/.aws/config` if possible in S3",3,30,4,1,"MEMBER"
+
+"De-Bazel pip_smoke_test sanity check",1,14,23,3,"CONTRIBUTOR"
+
+"De-Bazel check_load_py_test sanity check",1,10,18,3,"CONTRIBUTOR"
+
+"Turn check_futures_test into a sanity check",2,13,12,3,"CONTRIBUTOR"
+
+"[CMake] Add sanity tests for python file lists",2,131,5,4,"CONTRIBUTOR"
+
+" Fix NadamOptimizer to work with sparse gradients properly",9,2,1,1,"CONTRIBUTOR"
+
+"adding ps_strategy to run_config to enable different placement strateâ€¦",1,42,8,3,"NONE"
+
+"fix doc for benchmark_model for android",1,3,1,2,"CONTRIBUTOR"
+
+"Fix periodic resample",4,65,14,4,"NONE"
+
+"Support Negativo17 Fedora Packaging",1,89,3,2,"NONE"
+
+"update _DECORATED_OPS for each latest call",1,1,2,1,"NONE"
+
+"Fix `tf.pow(x, y)` edge case with integer x and negative integer y",4,92,7,6,"MEMBER"
+
+"Fix issue #15588 by simplifying the code",1,0,5,1,"NONE"
+
+"Issue #15572, support for unspecified spatial dimensions in layers.Conv3d_transposed",3,20,16,2,"NONE"
+
+" [CMake] Extract more file lists",1,223,168,5,"CONTRIBUTOR"
+
+"WIP: Remove invalid merge_repeated option from CTC beam decoder",1,11,27,4,"NONE"
+
+"RGB<->YIQ colorspace conversion",5,165,0,3,"NONE"
+
+"[iOS/tflite] Add ability to build a specific arch",1,101,14,1,"CONTRIBUTOR"
+
+"Fix sample_distorted_bounding_box where min_object_covered could be None",2,21,0,2,"MEMBER"
+
+"fix pooling1D dimension bug",1,4,4,1,"NONE"
+
+"Enables 0-D indexing for Gather() in TFLite",2,29,5,2,"NONE"
+
+"Hotfix/fix android example for focus mode continuous picture - #15487",2,8,2,1,"NONE"
+
+"Compute test accuracy in batches to avoid OOM on GPUs",2,9,2,1,"NONE"
+
+"Small fix in the example",1,1,1,1,"NONE"
+
+"Add customerized kernel implementation for clip_by_value",9,623,38,10,"MEMBER"
+
+"Make get_placeholders() accessible and add example",3,13,0,2,"CONTRIBUTOR"
+
+"Add complex64 and complex128 support for `tf.angle` on GPU",5,28,13,4,"MEMBER"
+
+"New rolling window batch operation for tf.data.Dataset #15044",6,115,0,3,"NONE"
+
+"DOCS: Update the description of the fused parameter.",1,6,6,2,"CONTRIBUTOR"
+
+"Add complex64 and complex128 support for ApplyAdadelta kernel",2,4,1,2,"MEMBER"
+
+"Fix bug: leaky relu supports float64",8,12,7,2,"CONTRIBUTOR"
+
+"Silence warning of graph_replace",3,7,2,2,"CONTRIBUTOR"
+
+"CMake: optionally link to ZLIB as systemlib / shared objects.",1,74,40,2,"CONTRIBUTOR"
+
+"CMake: fix -fPIC control.",1,10,46,9,"CONTRIBUTOR"
+
+"Only emit PTX code for the most recent CUDA compute architecture",1,7,3,1,"CONTRIBUTOR"
+
+"fix that remove_nodes drops input suffixes",1,11,1,1,"NONE"
+
+"CPU: Support for DT_STRING type in ScatterNd ",5,21,5,4,"CONTRIBUTOR"
+
+"added crucial documentation on SELU activation",1,11,0,3,"NONE"
+
+"Correct channels_first format in 1d_pooling for tf.layers",1,2,2,1,"NONE"
+
+"Setting proper sonames on Linux",3,1,0,1,"NONE"
+
+"Model Average Optimizer",4,522,1,4,"CONTRIBUTOR"
+
+"Minor optimization of conv_ops.",1,21,23,1,"CONTRIBUTOR"
+
+"[XLA] Allow components in the plugins directory to create devices",1,1,0,1,"CONTRIBUTOR"
+
+"Fix issue #15269",1,2,2,1,"NONE"
+
+"Add support for explicit broadcasting in TensorFlow",9,403,0,5,"MEMBER"
+
+"Fix static shape inference for keras.layers.LSTM",3,29,0,3,"CONTRIBUTOR"
+
+"Remove extra param of concatenation in nnapi/NeuralNetworksShim.h",1,1,3,1,"NONE"
+
+"Add some sparse operators",2,747,0,11,"NONE"
+
+"estimator: allow export_outputs to be a Tensor",1,11,2,1,"CONTRIBUTOR"
+
+"fix a problem in tflite custom_operators.md",1,1,1,1,"CONTRIBUTOR"
+
+"Adding reading op for hadoop sequence file format (very basic version though).",2,619,0,10,"NONE"
+
+"minor docs addition to fixed_size_partitioner",1,5,0,1,"NONE"
+
+"Add uint32 and uint64 kernel support for `Invert`",5,11,8,4,"MEMBER"
+
+"Synchronize threads for safe output",1,2,0,1,"NONE"
+
+"OS X ld does not have icf",1,1,0,1,"CONTRIBUTOR"
+
+"Add a setter method variable_scope.auto_reuse_variables() to enable AUTO_REUSE",1,4,0,1,"CONTRIBUTOR"
+
+"improve tf.saved_model.loader.load exception",1,3,0,1,"CONTRIBUTOR"
+
+"min_quantize lib and command line",4,1299,0,15,"NONE"
+
+"Support ""causal"" padding in tf.layers.convolutional.Conv1D",17,173,7,5,"CONTRIBUTOR"
+
+"Update freeze_graph.py",1,7,7,1,"NONE"
+
+"Add broadcasting for rank 6 Tensors",1,7,0,1,"NONE"
+
+"improvement in the tf.nn.raw_rnn documentation",1,8,4,1,"NONE"
+
+"Switch over to max_pool_v2 in Python",4,66,40,4,"MEMBER"
+
+"Support passing layer instances to produce attentional hidden states",3,100,8,2,"CONTRIBUTOR"
+
+"Tensor roll op implementation",31,1493,1,23,"NONE"
+
+"Add complex dtypes support for `tf.squared_difference`",2,5,3,2,"MEMBER"
+
+"Variable size multi-label candidate sampling.",1,42,32,4,"CONTRIBUTOR"
+
+"Fix issue in tf.nn.softmax where negative dims could only be -1",2,13,0,2,"MEMBER"
+
+"TensorBoard Modifications for Word2Vec Example",3,85,19,1,"NONE"
+
+"Add `tf.unravel_index` as an equivalent of `np.unravel_index`",7,170,0,5,"MEMBER"
+
+"Add DT_HALF support for SpaceToDepth on GPU",6,36,4,6,"MEMBER"
+
+"Fix bug: divide by zero in embedding_lookup_sparse",9,81,32,4,"CONTRIBUTOR"
+
+"Automate download and unzip of the model file",1,38,5,3,"CONTRIBUTOR"
+
+"Add label_wav_dir.py",2,136,0,1,"CONTRIBUTOR"
+
+"Fix crash on closing the app when classifier failed to initialize",1,3,1,1,"CONTRIBUTOR"
+
+"Update .gitignore files for Android Studio",1,53,4,2,"CONTRIBUTOR"
+
+"Fix of issue #10479",1,2,3,1,"NONE"
+
+"New Feature: #12686 Softmaxcrossentropywithlogits gradient function",6,53,0,2,"NONE"
+
+"Add a way to provide target nodes in Android",2,12,0,1,"NONE"
+
+"Added a check for a macro to specify that an ARM device is not mobile",1,4,3,1,"NONE"
+
+"Implement LoggingAsync for GRPC Worker Services",9,115,2,6,"CONTRIBUTOR"
+
+"upgrade minSdkVersion to 21",1,1,1,1,"NONE"
+
+"add photo selection and some changes in ios simple app",14,465,321,13,"NONE"
+
+"Implements LayerNormBasicGRUCell",3,171,0,2,"NONE"
+
+"Converting the real and imaginary float values from short_test_segmenâ€¦",2,14,0,1,"CONTRIBUTOR"
+
+"Improve SkipNBytes to RandomInputStream ",5,104,44,10,"MEMBER"
+
+"Make sparse_to_dense differentiable by wrapping scatter_nd_add.",1,9,12,2,"NONE"
+
+"memmap changes",2,115,3,1,"NONE"
+
+"Add checkpoint file prefix check",1,8,3,1,"CONTRIBUTOR"
+
+"add not equal op to tf_op_files.txt",1,2,0,1,"CONTRIBUTOR"
+
+"updated keras backend with missing methods",1,9,0,1,"NONE"
+
+"Add int64 support of `axis` (`Tidx`) for ConcatV2",3,72,45,2,"MEMBER"
+
+"Added an option to `kernel` to `skip_metropolis_step`.",2,85,1,2,"NONE"
+
+"improve production condition of debug log with VLOG",1,15,6,2,"NONE"
+
+"Add KafkaReader for processing streaming data with Apache Kafka",18,928,1,13,"MEMBER"
+
+"Support fold batch norm for atrous conv2d",1,162,0,2,"NONE"
+
+"Update adding_an_op.md",1,349,0,1,"NONE"
+
+"make ""smart_cond"" api public and reusable",14,124,49,5,"NONE"
+
+"allow to run configure from a parent workspace",1,71,16,4,"CONTRIBUTOR"
+
+"Fix the gradient computation of dynamic stitch.",9,868,10,11,"CONTRIBUTOR"
+
+"Fix of issue #13164",30,137544,57501,1838,"CONTRIBUTOR"
+
+"Extracting out tf.bin_values_fixed_width from tf.histogram_fixed_width.",10,122,0,3,"NONE"
+
+"added scope filtering to summaries.merge_all",4,4,3,2,"NONE"
+
+"Support TensorArray in BeamSearchDecoder state.",14,244,15,4,"CONTRIBUTOR"
+
+"Implement SpatialPyramidPooling",25,217,0,2,"CONTRIBUTOR"
+
+"persist nsync.a across different platform builds",4,8,1,1,"CONTRIBUTOR"
+
+"Add utf8 support for string_split",15,465,13,8,"MEMBER"
+
+"change cnn_mnist example to use Adam optimizer; added a 'loss' summary",1,2,1,1,"CONTRIBUTOR"
+
+"Support CopyFile with streaming",10,133,12,7,"MEMBER"
+
+"Adding image captioning examples for iOS (Im2txt) ",2,2675,12,30,"NONE"
+
+"layers.py spatial_softmax activation can be selected by user",4,35,3,2,"NONE"
+
+"Make scatter_* kernels to be multiple thread and gain 8x speedup.",7,64,57,2,"CONTRIBUTOR"
+
+"[XLA][WIP] Add support for Polyhedral compilation through Polly",4,667,3,8,"NONE"
+
+"training argument for tf.nn.rnn_cell.DropoutWrapper",4,44,11,2,"CONTRIBUTOR"
+
+"Add focal_loss",5,168,0,3,"CONTRIBUTOR"
+
+"[OpenCL] Registers AvgPool and AvgPoolGrad (#105)",1,374,0,1,"CONTRIBUTOR"
+
+"Weight normalization for RNN Cells.",3,350,0,2,"NONE"
+
+"add nodouble option for all cwise ops",2,141,49,40,"CONTRIBUTOR"
+
+"BeamSearchDecoder: fix beam not full, and add test module",11,101,16,2,"NONE"
+
+"Multiplicative Integration Recurrent Neural Networks",6,414,0,3,"NONE"
+
+"Quantize conv2d transpose",23,686,15,7,"CONTRIBUTOR"
+
