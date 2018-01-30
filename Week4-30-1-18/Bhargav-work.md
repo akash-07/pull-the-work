@@ -10,5 +10,5 @@
 
 | Description | Commit Link     | Hours spent  |
 | :------------- | :------------- | :------------|
-|Proposed metrics for prioritizing issues.| | 2 |
+|Proposed metrics for prioritizing issues.|https://github.com/akash-07/pull-the-work/blob/master/Tool-1/metrics.md | 2 |
 |Made a GUI for the tool with tkinter|https://github.com/akash-07/pull-the-work/gui.py | 4|
