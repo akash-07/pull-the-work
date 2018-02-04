@@ -47,6 +47,6 @@ def action(data,first_page, filename = 'tensorflow-issues.csv'):
         try:
             writer.writerow(row)
         except:
-            print('Caught an exception. Contnuing now....')
+            print('Caught an exception. Continuing now....')
             continue
     csv_file.close()
