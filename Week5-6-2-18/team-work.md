@@ -16,6 +16,4 @@
 - Use a K-Nearest Neighbors or logistic regression classifier to classify issues into different priority buckets.
 - Start working on processing of issue titles.
 
-**Plots**
-
-![](image1.jpg)
+*plots can be found in the same folder*
